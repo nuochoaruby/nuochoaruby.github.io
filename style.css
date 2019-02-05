@@ -1,0 +1,163 @@
+body {margin: 0;
+	font-family: "Arial", sans-serif;
+    font-size: 14px;
+	max-width:600px;
+	width:100%;
+	margin: 0 auto;
+	background:#f2f4f8;
+}
+header{width: 100%;}
+header img{width:100%;}
+
+.box-1{background:#ffffff;}
+
+.box-1 ul{
+	display: inline-flex;
+	padding-inline-start: 0;
+	width:100%;}
+	
+.box-1 li{
+	list-style: none;
+    padding: 0 20px 0 20px;
+    width: 27%;
+    text-align: center;}
+
+.box-1 img{
+	width:64px;}
+
+.box-2{
+	width:100%;
+	margin-top:15px;
+	background-color: #fff;
+    border: 1px solid #e6e6e6;}
+	
+.box-2 img{
+	max-width:600px;
+	width:100%;}
+
+.box-2 p {
+    line-height: 1.5;
+    font-size: 1.3em;
+    margin-bottom: 24px;
+    padding: 15px 30px;
+}	
+	
+a {color: #000;text-decoration: none;}
+
+.box-img{
+	width:100%;
+	margin-top:15px;
+	display:block;}
+	
+.box-img-1{
+	display:block;
+	width: 50%;
+	text-align: center;
+    background: #ccc;
+    margin-bottom: 30px;
+	float: left;}
+	
+.box-img-1 img{width:100px;}
+
+
+.box-3 img{
+	width:30%;}
+	
+.box-3 ul{
+	
+	padding-inline-start: 0;
+	width:100%;}
+	
+.box-3 li{
+	list-style: none;
+    padding: 0 20px 0 20px;
+    width: 50%;
+    text-align: center;}
+
+
+
+
+
+
+
+.fixed-qrcode {
+    display: block;
+    position: fixed;
+    top: 30px;
+    background-color: #fff;
+    margin-left: 630px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;}
+
+.fixed-qrcode p.title {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.fixed-qrcode p {
+    color: #888;
+    font-size: .75em;
+    text-align: center;
+    word-wrap: break-word;
+}
+.fixed-qrcode img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: -5px auto;
+}
+
+ 
+ 
+	
+
+
+
+
+
+
+ 
+ 
+ 
+
+	
+	
+ 
+
+@media only screen and (max-width: 1170px){
+ 
+
+ 
+} 
+@media (min-width: 1200px) {
+  .container {
+    width: 600px;
+  }
+}
+ 
+@media only screen and (min-width: 1025px)
+.fixed-qrcode {
+    display: block;
+    position: fixed;
+    top: 30px;
+    background-color: #fff;
+    width: 184px;
+    min-height: 200px;
+    margin-left: 630px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+
+
